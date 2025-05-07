@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ஸ்ரீ சரவணா இஸ்திரி நிலையம்</title>
+  <style>
+    
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #A51C30; 
+      color: white;
+      padding: 1.5em 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .logo {
+      background-color: white;
+      color: #A51C30;
+      font-weight: bold;
+      font-size: 1.8em;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .header-text p {
+      margin: 0;
+      font-size: 1em;
+    }
+
+    .content {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 1.2em 1.5em;
+      margin-top: 1em;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .call-btn {
+      background-color: #A51C30;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .call-btn:hover {
+      background-color: #8b192a;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      margin-top: 1em;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #FBE9E7;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      margin-top: 3em;
+      background-color: #eeeeee;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 1em;
+      }
+
+      table, th, td {
+        font-size: 14px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .logo {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header with logo and shop name -->
+  <header>
+    <div class="logo">SS</div>
+    <div class="header-text">
+      <h1>ஸ்ரீ சரவணா இஸ்திரி நிலையம்</h1>
+      <p>Sri Saravana Iron Shop</p>
+    </div>
+  </header>
+
+  <div class="content">
+
+    <!-- Address -->
+    <div class="card">
+      <h3>🏠 முகவரி | Address</h3>
+      <p>Shop No. 32, First Avenue,<br>D Sector, 9th Street,<br>Vadapalani, Chennai - 600026</p>
+      <p>முகவரி: கடை எண் 32, ஃபர்ஸ்ட் அவென்யூ, டி பகுதி, 9வது தெரு, வடபழனி, சென்னை - 26</p>
+    </div>
+
+    <!-- Timings -->
+    <div class="card">
+      <h3>🕒 வேலை நேரம் | Shop Timing</h3>
+      <p>Open Daily: Morning 8:00 AM to Night 9:00 PM</p>
+      <p>தினமும் காலை 8 மணி முதல் இரவு 9 மணி வரை திறந்திருக்கும்</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+      <h3>📞 தொடர்புக்கு | Contact</h3>
+      <p>+91 98765 43210</p>
+      <a href="tel:+919876543210" class="call-btn">Call Now</a>
+    </div>
+
+    <!-- Services -->
+    <div class="card">
+      <h3>🧺 சேவைகள் | Services</h3>
+      <ul>
+        <li>Only Ironing - No Washing (இஸ்திரி மட்டும்)</li>
+        <li>Home Pickup & Delivery upto 3 km (மூன்று கிமீ வரை ஹோம் பிக் அப் & டெலிவரி)</li>
+        <li>Fixed Price Only - No Account (நிலையான விலை)</li>
+        <li>GPay & Paytm Accepted, No Card Payment (கூகுள் பே மற்றும் பேடிஎம் வழங்கலாம்)</li>
+      </ul>
+    </div>
+
+    <!-- Price List -->
+    <div class="card">
+      <h3>💰 விலை பட்டியல் | Ironing Price List</h3>
+      <table>
+        <tr>
+          <th>ஆடை வகை (Item)</th>
+          <th>விலை (Price)</th>
+        </tr>
+	<td>சட்டை (Shirt)</td>
+          <td>₹10</td>
+        </tr>
+        <tr>
+          <td>பேண்ட் (Pant)</td>
+          <td>₹12</td>
+        </tr>
+        <tr>
+
+        <tr>
+          <td>சாரி (Saree)</td>
+          <td>₹20</td>
+        </tr>
+        <tr>
+          <td>படுக்கை விரிப்பு (Bedsheets)</td>
+          <td>₹20</td>
+        </tr>
+        <tr>
+          <td>சுடிதார் செட் (Chudidar Set)</td>
+          <td>₹15</td>
+        </tr>
+        <tr>
+          <td>கஞ்சி போட்ட சட்டை (Starched Shirt)</td>
+          <td>₹15</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <footer>
+    Ⓒ 2025 ஸ்ரீ சரவணா இஸ்திரி நிலையம் | Fixed Rate | No Account | GPay & Paytm Available
+  </footer>
+
+</body>
+</html>
